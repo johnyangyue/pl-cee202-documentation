@@ -1,8 +1,6 @@
 Class Preparation
 =====
 
-.. _installation:
-
 Team Assignment
 ------------
 
@@ -49,27 +47,10 @@ we generate a mapping from row indices of ``roster`` to team assignment with
    for i,id in enumerate(available_ids):
       team[id] = i+1
 
-.. code-block:: console
+The final output is exported as ``CEE202_FindYourTeam.csv``, which we can upload to Canvas during the first week.
 
-   (.venv) $ pip install lumache
-
-Creating recipes
+Canvas Maintenance
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
