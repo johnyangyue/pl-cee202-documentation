@@ -1,6 +1,7 @@
 Class Preparation
 =====
 
+
 Team Assignment
 ------------
 
@@ -10,6 +11,15 @@ The script requires us to obtain a list of students, which we can download from 
 
 Users can adjust ``roster = pd.read_csv('roster.csv')`` and ``size=4`` to according to the location ``roster.csv`` is stored and desired
 average team size. 
+
+.. code-block:: python
+   :linenos:
+   :emphasize-lines: 3,5-6
+   # Use Canvas gradebook as roster.
+   roster = pd.read_csv('roster.csv')
+
+   # Team size (can be adjusted)
+   size = 4
 
 After removing un-necessary information and entries with 
 
@@ -48,6 +58,7 @@ we generate a mapping from row indices of ``roster`` to team assignment with
       team[id] = i+1
 
 The final output is exported as ``CEE202_FindYourTeam.csv``, which we can upload to Canvas during the first week.
+
 
 Canvas Maintenance
 ----------------
