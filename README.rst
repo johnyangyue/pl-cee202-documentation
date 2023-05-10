@@ -10,7 +10,7 @@ Please see `online documentation <https://pl-cee202-documentation.readthedocs.io
 
 
 
-.. |docs| image:: https://readthedocs.org/projects/documentation/badge/?version=latest
-   :target: http://documentation.readthedocs.io/en/latest/?badge=latest
+.. |docs| image:: https://readthedocs.org/projects/pl-cee202-documentation/badge/?version=latest
+   :target: http://pl-cee202-documentation.readthedocs.io/en/latest/?badge=latest
    :alt: documentation status
 
