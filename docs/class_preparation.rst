@@ -1,7 +1,6 @@
 Class Preparation
 =====
 
-
 Team Assignment
 ------------
 
@@ -58,7 +57,6 @@ we generate a mapping from row indices of ``roster`` to team assignment with
       team[id] = i+1
 
 The final output is exported as ``CEE202_FindYourTeam.csv``, which we can upload to Canvas during the first week.
-
 
 Canvas Maintenance
 ----------------
